@@ -51,15 +51,15 @@ EOF
 ./configure --enable-shared
 
 wait
-echo '预编译成功'
+
 
 make 
 wait
-echo '编译成功'
+
 
 make install
 wait
-echo '安装成功'
+
 
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib">>/etc/profile
 
